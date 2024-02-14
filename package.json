@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"cd Backend && node server.js",
-    "build":"cd frontendnew && npm run build"
-    
+    "build":"npm install && npm install --prefix frontendnew && npm run build --prefix frontendnew"    
   },
   "author": "Pranit",
   "license": "ISC",
